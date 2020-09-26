@@ -229,6 +229,16 @@ ul#nav li.current a { color: #F06000; }
    margin-right: 15px;
    font-size: 20px;
 }
+#about h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: white;
+}
+#about h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
 
 
 /* ------------------------------------------------------------------ */
@@ -299,7 +309,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 22px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -320,40 +330,63 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 22px;
+   line-height: 22px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.more-skills {
+   text-align: justify;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.c {
+  	width: 95%;
+  	-moz-animation: c 2s ease;
+  	-webkit-animation: c 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.cpp {
+  	width: 95%;
+  	-moz-animation: cpp 2s ease;
+  	-webkit-animation: cpp 2s ease;
 }
-.css {
+.java {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+.csharp {
+  	width: 60%;
+  	-moz-animation: csharp 2s ease;
+  	-webkit-animation: csharp 2s ease;
+}
+.javascript {
+  	width: 80%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
 .html5 {
   	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.css {
+   width: 80%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.sql {
+   width: 75%;
+   -moz-animation: sql 2s ease;
+   -webkit-animation: sql 2s ease;
+}
+.vhdl {
+   width: 60%;
+   -moz-animation: vhdl 2s ease;
+   -webkit-animation: vhdl 2s ease;
+}
+.matlab {
+   width: 50%;
+   -moz-animation: matlab 2s ease;
+   -webkit-animation: matlab 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -798,23 +831,16 @@ call-to-action .button {
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
+
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 3px;
+   letter-spacing: 1px;
    color: #EBEEEE;
-   margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
+#contact h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
 }
 
 #contact h4 {
@@ -878,6 +904,7 @@ call-to-action .button {
 	color: #11ABB0;
 	font-size: 13px;
 }
+
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;
@@ -899,6 +926,7 @@ call-to-action .button {
    left: 18px;
    top: 17px;
 }
+
 
 
 /* Twitter Feed */
